@@ -1,0 +1,87 @@
+{
+    "name": "pf2e-wildling",
+    "title": "PF2e Wildling",
+    "description": "An inofficial Wildling racket for the Rogue class.",
+    "packs": [
+        {
+            "name": "wildling-actions",
+            "label": "Wildling Actions",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/wildling-actions.db",
+            "entity": "Item",
+            "module": "pf2e-wildling"
+        },
+        {
+            "name": "wildling-effects",
+            "label": "Wildling Effects",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/wildling-effects.db",
+            "entity": "Item",
+            "module": "pf2e-wildling"
+        },
+        {
+            "name": "wildling-spells",
+            "label": "Wildling Spells",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/wildling-spells.db",
+            "entity": "Item",
+            "module": "pf2e-wildling"
+        },
+        {
+            "name": "wildling-features",
+            "label": "Wildling Features",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/wildling-features.db",
+            "entity": "Item",
+            "module": "pf2e-wildling"
+        }
+    ],
+    "flags": {
+        "pf2e-wildling": {
+            "pf2e-homebrew": {
+                "featTraits": {
+                    "wild-art": {
+                        "label": "Wild Art",
+                        "description": "A feat granting a Wild Art focus spell for the Wildling Rogue racket.."
+                    }
+                },
+                "spellTraits": {
+                    "wild-art": {
+                        "label": "Wild Art",
+                        "description": "A spell for the Wildling Rogue racket. It interacts with various feats for that same racket."
+                    }
+                }
+            }
+        }
+    },
+    "url": "https://github.com/bcronin90/PF2e-wildling",
+    "manifest": "https://raw.githubusercontent.com/bcronin90/PF2e-wildling/main/module.json",
+    "download": "https://github.com/bcronin90/PF2e-wildling/archive/refs/heads/main.zip",
+    "id": "pf2e-wildling",
+    "authors": [
+        {
+            "name": "zich"
+        }
+    ],
+    "compatibility": {
+        "minimum": 10.291,
+        "verified": 10.291
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "4.11.2"
+                }
+            }
+        ]
+    },
+    "version": "1.0"
+}
