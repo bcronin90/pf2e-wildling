@@ -1,6 +1,6 @@
 # PF2e Wildling
 
-This module contains the unofficial Wildling Racket for the rogue class in Pathfinder Second Edition.
+This module for Foundry VTT contains the unofficial Wildling Racket for the rogue class in Pathfinder Second Edition.
 
 ## How To
 
