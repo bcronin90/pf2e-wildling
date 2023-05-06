@@ -1,12 +1,16 @@
 # PF2e Wildling
 
-This module contains the inofficial Wildling Racket for the rogue class in Pathfinder Second Edition.
+This module contains the unofficial Wildling Racket for the rogue class in Pathfinder Second Edition.
 
 ## How To
 
 This module includes four compendia. You can find the racket and its related feats in the "Wildling Features" compendium.
 Simply drag them to the appropriate places on the character sheet and you are ready to go.
 Whenever a feat or feature grants a spell, add it to the character from the "Wildling Spells" compendium.
+
+## Feedback
+
+If you have any feedback on the functionality, design or balance of this module, please feel free to open an issue.
 
 ## Licenses
 
